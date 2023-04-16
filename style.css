@@ -1,24 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500;600&family=PT+Sans:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@500;600&family=PT+Sans:ital@1&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.container{
+.container {
   width: 95%;
   margin: auto;
 }
 
-header{
+header {
   /* border: 1px solid red; */
   /* height: 10rem; */
-  background: url('assets/bg-hero-mobile.svg') #ECF9FF no-repeat;
- padding-top: 2rem;
+  background: url("assets/bg-hero-mobile.svg") #ecf9ff no-repeat;
+  padding-top: 2rem;
 }
 
-nav{
+nav {
   /* border: 1px solid green; */
   display: flex;
   justify-content: space-between;
@@ -29,22 +29,21 @@ nav{
   margin: 1rem 0 4rem 0;
 }
 
-nav img{
+nav img {
   width: 5rem;
 }
 
-nav button{
-  background-color: #FEFFFF;
+nav button {
+  background-color: #feffff;
   border-radius: 18px;
   width: 32%;
   padding: 5px;
   border: white;
   box-shadow: -1px 2px 10px 1px grey;
-
 }
 /* End  of Nav */
 /* Hero-section starts here */
-.hero-section{
+.hero-section {
   /* border: 2px solid black; */
   /* margin-top: 80rem; */
   text-align: center;
@@ -54,52 +53,45 @@ nav button{
   /* line-height: 2rem; */
 }
 
-.hero-content h2{
+.hero-content h2 {
   /* text-align: center; */
   width: 75%;
   margin: auto;
   line-height: 2rem;
-  font-family:  'PT Sans', sans-serif;
-
+  font-family: "PT Sans", sans-serif;
 }
 
-.hero-content p{
+.hero-content p {
   width: 70%;
   margin: auto;
   /* text-align: center; */
   /* border: 1px solid blue; */
   margin-top: 1.5rem;
   line-height: 1.3rem;
-  font-family:  'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
-.hero-content > button{
+.hero-content > button {
   /* margin-top: 1rem; */
   margin: 2rem 0 3rem 0;
   height: 2.5rem;
   border-radius: 10rem;
   width: 60%;
   border: none;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: hsl(322, 100%, 66%);
-
 }
 
-.hero-section img{
+.hero-section img {
   width: 19rem;
   margin-bottom: 3rem;
 }
-@media screen and (min-width: 768px){
-  .hero-section{
-    display: flex;
-  }
-}
 
 /* cards section */
-.cards img{
+.cards img {
   /* border: 1px solid black; */
   width: 100%;
 }
-.cards{
+.cards {
   /* border: 1px solid red; */
   padding: 3rem;
   text-align: center;
@@ -107,172 +99,211 @@ nav button{
   border-radius: 10px;
   margin-top: 1rem;
 }
-main{
+main {
   margin-top: 2.5rem;
 }
 /* to put spaces at the top and bottom of an indivitual tag */
-.cards h2{
+.cards h2 {
   padding-top: 2rem;
   padding-bottom: 1rem;
-  font-family:  'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 /* to put spaces inbtn text */
-.cards p{
+.cards p {
   line-height: 1.5rem;
   color: hsl(208, 11%, 55%);
-  font-family:  'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
-.card-3{
+.card-3 {
   padding: 3rem;
   text-align: center;
 }
-@media screen and (min-width: 768px){
-.card-1{
-  /* flex-direction:row-reverse ; */
-  direction: rtl;
-  display: flex;
-  gap: 5rem;
-}
-.card-1 img{
-  width: 40%;
-  
-}
-.maintain{
-  text-align: left;
-  height: 0.5;
-}
-.card-2{
-  display: flex;
-  gap: 5rem;
-}
-.card-2 img{
-  width: 40%;
-}
-.card-3{
-  direction: rtl;
-  display: flex;
-  gap: 5rem;
-
-}
-.card-3 img{
-  width: 40%;
-}
-}
-
-
 /* section 1 */
-.builder button{
-    /* margin-top: 1rem; */
-    margin: 2rem 2rem 4rem 1rem;
-    height: 2.5rem;
-    border-radius: 10rem;
-    width: 60%;
-    border: none;
-    color: #FFFFFF;
-    background-color: hsl(322, 100%, 66%);
-    margin-bottom: 1.5rem;
-  
-  }
-  .builder p{
-    width: 99%;
-    margin: auto;
-    /* text-align: center; */
-    /* border: 1px solid blue; */
-    margin-top: 4rem;
-    line-height: 1.3rem;
-    font-weight: 1000;
-    padding-top: 1.5rem;
-    /* font-family:  'PT Sans', sans-serif; */
-  }
-  .builder{
-    text-align: center;
-    padding: 0rem;
-    padding-left: 0rem;
-    /* padding-top: 0.8rem; */
-    margin-left: 1rem;
-    margin-right: 1rem;
-    text-align: center;
-    box-shadow: -1px 1px 5px rgb(226, 225, 225);
-    border-radius: 10px;
-    margin-top: 1rem;
-    /* position: relative; */
-    /* top: 4rem; */
-    /* bottom: 13rem; */
-    padding-bottom: 1rem;
-    margin-bottom:6rem;
-    background-color: white;
-    color: black;
-  }
-  .builder{
-    position: relative;
-    bottom: 6rem;
-    /* margin-bottom: 8rem; */
-  }
- /* the section part of the footer which is also the builder part of this style comes below */
- #endpart{
-  background-color: hsl(192, 100%, 9%)
- }
- #endpart{
+.builder button {
+  /* margin-top: 1rem; */
+  margin: 2rem 2rem 4rem 1rem;
+  height: 2.5rem;
+  border-radius: 10rem;
+  width: 60%;
+  border: none;
+  color: #ffffff;
+  background-color: hsl(322, 100%, 66%);
+  margin-bottom: 1.5rem;
+}
+.builder p {
+  width: 99%;
+  margin: auto;
+  /* text-align: center; */
+  /* border: 1px solid blue; */
+  margin-top: 4rem;
+  line-height: 1.3rem;
+  font-weight: 1000;
+  padding-top: 1.5rem;
+  /* font-family:  'PT Sans', sans-serif; */
+}
+.builder {
+  text-align: center;
+  padding: 0rem;
+  padding-left: 0rem;
+  text-align: center;
+  box-shadow: -1px 1px 5px rgb(226, 225, 225);
+  border-radius: 10px;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 6rem;
+  background-color: white;
+  color: black;
+  position: relative;
+  bottom: 6rem;
+}
+
+/* the section part of the footer which is also the builder part of this style comes below */
+#endpart {
+  background-color: hsl(192, 100%, 9%);
+}
+#endpart {
   margin-top: 10rem;
- 
- }
- .footline img{
+}
+.footline img {
   width: 120px;
   /* padding-top: 5rem; */
   padding-bottom: 1.5rem;
   margin-left: 1rem;
-
- }
-
-.darker{
+}
+.darker {
   /* margin: 2rem 4rem 2rem 4rem; */
   color: white;
   text-align: justify;
   /* margin-left: 2rem; */
   /* margin-bottom: 3rem; */
   padding-top: 0rem;
- }
- .style p{
+}
+.style p {
   padding-bottom: 1.5rem;
- }
- 
- .socials img{
+}
+.socials img {
   width: 20px;
-  border-radius: 2rem;
+  border-radius: 40%;
   background-color: white;
   font-weight: lighter;
- }
- .socials{
-  text-align: center;
+}
+.socials {
   padding-top: 2rem;
-  padding-bottom: 3rem;
- }
- .socials p{
+  padding-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.7rem;
+}
+.copyright {
   font-size: small;
-
- }
- .con{
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.con {
   display: flex;
   /* font-size: small; */
   gap: 1rem;
- }
- .tint{
+}
+.tint {
   margin-left: 1rem;
- }
- .style p{
+}
+.style p {
   margin-right: 1.5rem;
- }
- .info{
-  margin-left: 1rem;
-  line-height: 2rem;
- }
- @media screen and (min-width: 768px){
-.dent{
-    display: flex;
-    gap: 15rem;
-  }
- }
- 
- 
-  
+}
 
+.info p,
+.dent2 p {
+  margin-bottom: 1rem;
+}
+.info{
+  margin-left: 1rem;
+}
+.dent2{
+  margin-left: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  nav img {
+    width: 10rem;
+  }
+  .hero-section {
+    display: flex;
+  }
+  .hero-content p {
+    margin: 1.5rem;
+    text-align: justify;
+  }
+  .hero-content h2 {
+    margin: 1.5rem;
+    text-align: justify;
+  }
+  .hero-content button {
+    display: flex;
+    padding-left: 5rem;
+    padding-top: 1rem;
+    margin-left: 2rem;
+  }
+
+  .builder {
+    width: 60%;
+    margin: auto;
+  }
+
+  .card-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    /* margin: 2rem; */
+    gap: 3rem;
+  }
+  .card-1 img {
+    width: 30%;
+  }
+  .maintain {
+    text-align: left;
+    height: 0.5;
+  }
+  .card-2 {
+    display: flex;
+    gap: 3rem;
+    /* margin: 1.5rem; */
+  }
+  .card-2 img {
+    width: 40%;
+  }
+  .card-3 {
+    direction: rtl;
+    display: flex;
+    gap: 2rem;
+    /* margin: 1.5rem; */
+  }
+  .card-3 h2{
+    text-align: left;
+  }
+  .card-3 img {
+    width: 40%;
+  }
+  .maintain{
+    text-align: justify;
+    padding: 2rem;
+  }
+  .pack {
+    display: flex;
+    gap: 3rem;
+  }
+  .style {
+    width: 35%;
+  }
+  .copyright {
+    text-align: right;
+    padding-bottom: 2.5rem;
+  }
+  .socials {
+    padding: 0; 
+  }
+  .socials img{
+    width: 25px;
+    height: 2rem;
+    border-radius: 10px;
+    
+  }
+}
