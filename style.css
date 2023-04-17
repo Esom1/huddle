@@ -15,7 +15,7 @@ header {
   /* border: 1px solid red; */
   /* height: 10rem; */
   background: url("assets/bg-hero-mobile.svg") #ecf9ff no-repeat;
-  padding-top: 2rem;
+  /* padding-top: 2rem; */
 }
 
 nav {
@@ -23,10 +23,10 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 0rem;
+  height: 5rem;
   /* margin-top: 1rem;
   margin-bottom: 5rem; */
-  margin: 1rem 0 4rem 0;
+  /* margin: 1rem 0 4rem 0; */
 }
 
 nav img {
@@ -270,7 +270,7 @@ main {
     /* margin: 1.5rem; */
   }
   .card-2 img {
-    width: 40%;
+    width: 50%;
   }
   .card-3 {
     direction: rtl;
@@ -282,10 +282,10 @@ main {
     text-align: left;
   }
   .card-3 img {
-    width: 40%;
+    width: 50%;
   }
   .maintain{
-    text-align: justify;
+    /* text-align: justify; */
     padding: 2rem;
   }
   .pack {
