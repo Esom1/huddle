@@ -229,6 +229,9 @@ main {
   .hero-section {
     display: flex;
   }
+  .hero-section img{
+    width: 50%;
+  }
 
   .hero-content {
     text-align: left;
@@ -255,7 +258,7 @@ main {
     gap: 3rem;
   }
   .card-1 img {
-    width: 30%;
+    width: 50%;
   }
   .maintain {
     text-align: left;
